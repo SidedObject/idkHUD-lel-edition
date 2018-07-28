@@ -38,14 +38,14 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ChargeLabel"
-		"xpos"			"0"
-		"ypos"			"32"		//32
+		"xpos"			"999999"
+		"ypos"			"999999"		//32
 		"zpos"			"3"
-		"wide"			"118"
-		"tall"			"8"
+		"wide"			"0"
+		"tall"			"0"
 		"pinCorner"				"2"
-		"visible"				"1"
-		"enabled"				"1"
+		"visible"				"0"
+		"enabled"				"0"
 		"fgcolor_override" "Metal"
 		"labelText"				"#TF_Charge"
 		"textAlignment"			"center"
@@ -56,11 +56,11 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter"
 		"font"			"Default"
-		"xpos"			"0"
-		"ypos"			"32"
+		"xpos"			"50"
+		"ypos"			"105"
 		"zpos"			"2"
 		"wide"			"118"
-		"tall"			"9"				
+		"tall"			"8"				
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -74,8 +74,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PipesPresentPanel"
-		"xpos"			"0"
-		"ypos"			"17"	//0
+		"xpos"			"242"
+		"ypos"			"97"	//0
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"480"
@@ -148,7 +148,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"NoPipesPresentPanel"
 		"xpos"			"0"
-		"ypos"			"18"	//0
+		"ypos"			"0"	//0
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"480"

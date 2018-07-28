@@ -16,7 +16,7 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c90"	[$WIN32]
+		"xpos"	"c100"	[$WIN32]
 		"xpos_minmode"	"r85"	[$WIN32]
 		"ypos"	"c67"	[$WIN32]
 		"ypos_minmode"	"r36"	[$WIN32]
@@ -76,14 +76,14 @@
 		"fieldName"		"HudMedicCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-64"	[$WIN32]
+		"xpos"			"c-100"	[$WIN32]
 		"xpos_minmode"	"r100"	[$WIN32]
 		"ypos"			"c70"	[$WIN32]
 		"ypos_minmode"	"r34"	[$WIN32]
 		"xpos"			"r174"	[$X360]
 		"ypos"			"r90"	[$X360]
-		"wide"			"200"
-		"tall"			"100"
+		"wide"			"500"
+		"tall"			"300"
 	}
 	
 	HudDemomanCharge
@@ -91,16 +91,16 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r80"	[$WIN32]
+		"xpos"			"c-60"	[$WIN32]
 		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos"			"r21"	[$WIN32]
+		"ypos"			"c115"	[$WIN32]
 		"ypos_minmode"	"r40"	[$WIN32]
 		"xpos"			"r112"	[$X360]
 		"ypos"			"r45"	[$X360]
 		"zpos"			"1"			// draw in front of ammo
-		"wide"			"60"
+		"wide"			"118"
 		"wide_minmode"	"50"
-		"tall"			"8"
+		"tall"			"10"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}	
@@ -108,18 +108,18 @@
 	HudBowCharge
 	{
 		"fieldName"		"HudBowCharge"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"r80"	[$WIN32]
+		"visible"		"0"
+		"enabled"		"0"
+		"xpos"			"c0"	[$WIN32]
 		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos"			"r21"	[$WIN32]
+		"ypos"			"c0"	[$WIN32]
 		"ypos_minmode"	"r40"	[$WIN32]
 		"xpos"			"r112"	[$X360]
 		"ypos"			"r45"	[$X360]
-		"zpos"			"1"			// draw in front of ammo
-		"wide"			"60"
+		"zpos"			"4"			// draw in front of ammo
+		"wide"			"0"
 		"wide_minmode"	"50"
-		"tall"			"8"
+		"tall"			"0"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
@@ -243,7 +243,7 @@
 		"fieldName" "DisguiseStatus"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"10"	[$WIN32]
+		"xpos"		"40"	[$WIN32]
 		"ypos"		"r70"	[$WIN32]
 		"xpos"		"50"	[$X360]
 		"ypos"		"330"	[$X360]
@@ -1036,14 +1036,14 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r162"	[$WIN32]
+		"xpos"			"c-110"	[$WIN32]
 		"xpos_minmode"	"r110"	[$WIN32]
-		"ypos"			"r52"	[$WIN32]
+		"ypos"			"c0"	[$WIN32]
 		"ypos_minmode"	"r30"	[$WIN32]
 		"xpos"			"r194"	[$X360]
 		"ypos"			"r74"	[$X360]
-		"wide"			"100"
-		"tall"			"50"
+		"wide"			"500"
+		"tall"			"300"
 	}	
 
 	HudTeamGoal

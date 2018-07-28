@@ -1,12 +1,12 @@
-"Resource/UI/HudItemEffectMeter_Demoman.res"
+"Resource/UI/HudItemEffectMeter_Killstreak.res"
 {
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r40"
-		"ypos"			"r40"
+		"xpos"			"c-205"
+		"ypos"			"c107"
 		"wide"			"26"
 		"tall"			"50"
 		"MeterFG"		"255 255 255 255"
@@ -36,18 +36,18 @@
 		"xpos"					"0"
 		"ypos"					"15"
 		"zpos"					"2"
-		"wide"					"26"
-		"tall"					"20"
+		"wide"					"0"
+		"tall"					"0"
 		"autoResize"			"1"
 		"pinCorner"				"2"
-		"visible"				"1"
-		"enabled"				"1"
+		"visible"				"0"
+		"enabled"				"0"
 		"tabPosition"			"0"
 		"labelText"				"Streak"
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Bold8"
+		"font"					"Regular6"
 		"fgcolor_override"		"255 255 255 255"
 	}
 
@@ -90,7 +90,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Bold28"
+		"font"					"Regular21"
 		"fgcolor"				"255 255 255 255"
 	}
 }
