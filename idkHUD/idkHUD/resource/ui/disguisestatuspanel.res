@@ -36,7 +36,7 @@
 		"xpos"			"22"
 		"ypos"			"57"
 		"zpos"			"-1"
-		"wide"			"128"				//128
+		"wide"			"140"				//128
 		"tall"	 		"2"	
 		"fillcolor"		"255 255 255 175"
 		"visible"		"1"
@@ -51,7 +51,7 @@
 		"xpos"			"22"
 		"ypos"			"31"
 		"zpos"			"-4"
-		"wide"			"128"				//128
+		"wide"			"140"				//128
 		"tall"	 		"27"	
 		"fillcolor"		"0 0 0 214"
 		"visible"		"1"
